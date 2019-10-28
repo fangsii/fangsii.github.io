@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangsii.github.io</id>
     <title>FANG.Si.i</title>
-    <updated>2019-10-28T04:56:22.102Z</updated>
+    <updated>2019-10-28T05:44:50.759Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangsii.github.io"/>
     <link rel="self" href="https://fangsii.github.io/atom.xml"/>
@@ -11,13 +11,22 @@
     <icon>https://fangsii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, FANG.Si.i</rights>
     <entry>
-        <title type="html"><![CDATA[第一]]></title>
+        <title type="html"><![CDATA[@放肆]]></title>
         <id>https://fangsii.github.io/post/about</id>
         <link href="https://fangsii.github.io/post/about">
         </link>
         <updated>2019-10-28T03:42:28.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>不仅不是个长情的人，还有重度拖延症</strong></p>
-<p><strong>不但没什么进步，反而智商在逐年下降</strong></p>
+        <content type="html"><![CDATA[<ul>
+<li>
+<p>不仅不是个长情的人，还有重度拖延症；</p>
+</li>
+<li>
+<p>不但没什么进步，反而智商在逐年下降；</p>
+</li>
+<li>
+<p>年华易逝，抓紧放肆。</p>
+</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
