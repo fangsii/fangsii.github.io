@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ffffever.github.io</id>
-    <title>FANGSi</title>
-    <updated>2019-10-28T04:32:12.956Z</updated>
+    <title>FANG.Si.</title>
+    <updated>2019-10-28T04:34:35.510Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ffffever.github.io"/>
     <link rel="self" href="https://ffffever.github.io/atom.xml"/>
-    <subtitle>放肆一时热情</subtitle>
+    <subtitle>放肆。一时热情</subtitle>
     <logo>https://ffffever.github.io/images/avatar.png</logo>
     <icon>https://ffffever.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, FANGSi</rights>
+    <rights>All rights reserved 2019, FANG.Si.</rights>
     <entry>
         <title type="html"><![CDATA[第一]]></title>
         <id>https://ffffever.github.io/post/about</id>
