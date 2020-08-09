@@ -1,181 +1,133 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<title>FANG.Si</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<meta name="description" content="三分热度，一时热情"/>
-<meta name="keywords" content="三分热度，一时热情"/>
-
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>小小巴黎书店 | FANG.Si</title>
+<meta name="description" content="三分热度，一时热情" />
 <link rel="shortcut icon" href="https://fangsii.github.io/favicon.ico">
-
 <link rel="stylesheet" href="https://fangsii.github.io/styles/main.css">
 
-<!-- Modernizr JS -->
-<script src="https://fangsii.github.io/media/scripts/modernizr-2.6.2.min.js"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-<scripts src="https://fangsii.github.io/media/scripts/respond.min.js"></scripts>
-<![endif]-->
+<script src="https://fangsii.github.io/media/js/jquery.min.js"></script>
+<script src="https://fangsii.github.io/media/js/masonry.pkgd.min.js"></script>
+<script src="https://fangsii.github.io/media/js/aos.js"></script>
+<script src="https://fangsii.github.io/media/js/pace.min.js"></script>
+<script src="https://fangsii.github.io/media/js/view-image.min.js"></script>
+<script src="https://fangsii.github.io/media/js/jquery.magnific-popup.min.js"></script>
+<script src="https://fangsii.github.io/media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="作者: [德] 妮娜·乔治
+出版社: 中信出版集团
+原作名: The Little Paris Bookshop
+译者: 淩微
+出版年: 2017-8
+页数: 456
+定价: 45
+装帧: 平装
+ISBN: 9787508678047
 
-<!-- Comment -->
-
-
-
-<!-- katex -->
-<!--<link href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css" rel="stylesheet">-->
-
-<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-
-
-
-</head>
-<body>
-    <div id="fh5co-offcanvas">
-    <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
-        <span><i class="icon-cross3"></i> <span>Close</span></span>
-    </a>
-    <div class="fh5co-bio">
-        <figure>
-            <img src="https://fangsii.github.io/images/avatar.png" alt="FANG.Si"
-                 class="img-responsive">
-        </figure>
-        <a href="https://fangsii.github.io/post/about/"><h3 class="heading">ABOUT ME</h3></a>
-        <h2>FANG.Si</h2>
-        <p>三分热度，一时热情</p>
-        <ul class="fh5co-social">
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-                <li>
-                    
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="fh5co-menu">
-
-        <!-- 标签 -->
-        <div class="fh5co-box">
-            <a href="https://fangsii.github.io/tags/"><h3 class="heading">👉标签</h3></a>
-            <ul>
-                
-                    <li><a href="https://fangsii.github.io/tag/booknotes/">读书笔记</a></li>
-                
-            </ul>
+简..." />
+    <meta name="keywords" content="读书笔记" />
+    <script src="https://fangsii.github.io/media/js/waterfall.min.js"></script>
+    <script src="https://fangsii.github.io/media/js/prism.min.js"></script>
+  </head>
+  <body>
+            <header id="header" class="grid-container">
+        <!-- start: .menu-wrapper -->
+        <div class="menu-mobile"> 
+          <i class="fa fa-reorder"></i>
         </div>
-    </div>
-</div>
-
-<header id="fh5co-header">
-    <div class="container-fluid">
-        <div class="row">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <ul class="fh5co-social">
-                
-                    <li>
-                        <a href="/"
-                        
-                        >
-                            首页
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://fangsii.github.io/tag/booknotes/"
-                        
-                        >
-                            读书
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://fangsii.github.io/tag/cloudynote"
-                        
-                        >
-                            赏云
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="https://fangsii.github.io/post/about"
-                        
-                        >
-                            关于
-                        </a>
-                    </li>
-                
-                    <li>
-                        <a href="/archives"
-                        
-                        >
-                            归档
-                        </a>
-                    </li>
-                
-            </ul>
-            <div class="col-lg-12 col-md-12 text-center">
-                <h1 id="fh5co-logo">
-                    <a href="https://fangsii.github.io">FANG.Si </a>
-                </h1>
+        <div class="menu-wrapper">
+          <div class="">
+            <div class="logo">
+              <a href="https://fangsii.github.io"><img src="/media/images/logoo.png" alt=""></a>
             </div>
+            <!-- start: .main-nav -->
+
+            <nav class="main-nav grid-container grid-parent">
+              <ul id="menu-header" class="menu gradient-effect">
+                <li class=""><a href="https://fangsii.github.io" class="menu">首页</a></li>
+                
+                  <li class="" >
+                    <a href="/" class="menu">
+                      首页
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://fangsii.github.io/tag/booknotes/" class="menu">
+                      读书
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://fangsii.github.io/tag/cloudynote" class="menu">
+                      赏云
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="https://fangsii.github.io/post/about" class="menu">
+                      关于
+                    </a>
+                  </li>
+                
+                  <li class="" >
+                    <a href="/archives" class="menu">
+                      归档
+                    </a>
+                  </li>
+                
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
+              </ul>
+            </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
+            <!-- end: .main-nav -->
+            <div class="clear"></div>
+            <div class="border hide-on-tablet hide-on-mobile"></div>
+          </div>    
+          <div class="clear"></div>
         </div>
-    </div>
-</header>
+        <!-- end: .menu-wrapper -->
+        <div class="clear"></div>
+      </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1596971486897" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
-    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
-    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('https://fangsii.github.io/post-images/xiao-xiao-ba-li-shu-dian.jpg');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-08-09"><i class="fa fa-calendar"></i><span class="lately">1 小时前</span></time>
+              
+            </div>
+            <div class="info">
+              <div class="tags ">
+                
+                      <a href="https://fangsii.github.io/tag/booknotes/" class="ctag ctag-0 ctag-booknotes" aria-label="">读书笔记</a>
+                    
+              </div>
+              <h1 class="title ularge white bold">小小巴黎书店</h1>
+            </div>
+          </div>
+        </div>  
 
-    <!-- 等gridea出自定义页面功能再优化一下 -->
-    
-        <div class="container-fluid">
-    <div class="row fh5co-post-entry single-entry">
-        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-            <figure class="animate-box">
-                
-                    <img src="https://fangsii.github.io/post-images/xiao-xiao-ba-li-shu-dian.jpg" alt="小小巴黎书店" class="img-responsive">
-                
-            </figure>
-            <span class="fh5co-meta animate-box">
-                
-                    <div class="tag-container">
-                        
-                            <a href="https://fangsii.github.io/tag/booknotes/" class="tag">读书笔记, </a>
-                        
-                    </div>
-                
-            </span>
-            <h2 class="fh5co-article-title animate-box">小小巴黎书店</h2>
-            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
-                <li>2020-08-09</li>
-                <li>426字</li>
-                <li>2 min read</li>
-            </ol>
-
-            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
-                <div class="row">
-                    <div class="col-md-12 animate-box post-content">
-                        <p> <p>作者: [德] 妮娜·乔治<br>
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>作者: [德] 妮娜·乔治<br>
 出版社: 中信出版集团<br>
 原作名: The Little Paris Bookshop<br>
 译者: 淩微<br>
@@ -186,124 +138,157 @@
 ISBN: 9787508678047</p>
 <!-- more -->
 <h3 id="简介">简介</h3>
-<p>塞纳河上，巴黎岸边，那艘停靠了21年的书船突然起航了。</p>
-<p>书船主人佩尔杜先生有口皆碑，他独自经营着这家叫“水上文学药房”的书店，自称“文学药剂师”。他与人为善，又个性执拗，会通过眼睛、耳朵和直觉，辨别出每一个灵魂所欠缺的东西，再把自己视为“解药”的书卖给对方。他以书为药， 相信唯有文学才能治愈人心。</p>
-<p>而他自己却深陷隐痛，围困其中。</p>
-<p>21年前，佩尔杜的挚爱曼侬忽然不告而别，留下一封信。他逃避着，不敢拆开它。</p>
-<p>21年后，佩尔杜意外得知曼侬的离去另有隐情，那不是一封分手信，而是一封求助信！</p>
-<p>他当即决定驾船南下，从巴黎前往曼侬的故乡普罗旺斯。</p>
-<p>与他意外同行的，是一位失去创作灵感的畅销书作家、一位追寻爱人多年的意大利厨师，还有两只博览群书的猫。</p>
-<p>河流上的美景、偏远的小镇书城、乡村欢乐的舞会、沿途拜访的作家……这场延滞的冒险以及那个迟到已久的真相，究竟会彻底击垮佩尔杜先生，还是成为抚平他伤口的解药呢？</p>
-<p>★这是写给读书人的一封情书，任何还相信文学有改变人类生活的力量的人，都会深受感动。</p>
- </p>
-                    </div>
-                </div>
+<p><a href="https://book.douban.com/subject/27073040/">https://book.douban.com/subject/27073040/</a></p>
+<h3 id="p30">P30</h3>
+<p>test</p>
 
-                <div class="row">
-                    <div class="col-md-12 animate-box">
-                        
-                    </div>
                 </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
 
-                <div class="row">
-    <div class="col-md-12 animate-box">
-        
-    </div>
-</div>
+            <section class="related section">
+              
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
+            
+              <div id="comments" class="bg-white hosted ">
+                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+              </div>
+              <div class="clear"></div>
+            
 
             </div>
+          </div>
+      </main>
 
-        </article>
-    </div>
-</div>
+          <footer id="footer" class="grid-container">
+        <div class="widgets row gradient-effect">
+            <div class="default-sidebar border-effect">
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
+                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  
+                  
+                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://fangsii.github.io/post/xiao-xiao-ba-li-shu-dian/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://fangsii.github.io/post-images/xiao-xiao-ba-li-shu-dian.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-08-09">2020-08-09</time>
+                      <h4 class="title usmall">
+                        <a href="https://fangsii.github.io/post/xiao-xiao-ba-li-shu-dian/">小小巴黎书店</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://fangsii.github.io/post/bookmark/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('/media/images/gridea.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2020-08-09">2020-08-09</time>
+                      <h4 class="title usmall">
+                        <a href="https://fangsii.github.io/post/bookmark/">图廊</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  
+                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
+                    <a href="https://fangsii.github.io/post/about/" class="thumb hover-effect">
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://fangsii.github.io/post-images/1572238347364.jpg');"></span>
+                    </a>
+                    <div class="info gradient-effect">
+                      <time datetime="2019-10-28">2019-10-28</time>
+                      <h4 class="title usmall">
+                        <a href="https://fangsii.github.io/post/about/">@放肆</a>
+                      </h4>
+                    </div>
+                    <div class="clear"></div>
+                  </article>
+                  
+                  
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-    
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
+                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <div class="tagcloud">
+                    
+                      <a href="https://fangsii.github.io/tag/booknotes/" class="ctag ctag-0 ctag-booknotes" aria-label="">读书笔记</a>
+                    
+                  </div>
+                  <div class="clear"></div>
+                </section>
+              </div>
 
-    <!-- 返回顶部 -->
-    <div class="back-to-top">
-    
-        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
-            <i class="fa fa-map"></i>
+              <div class="grid-33 tablet-grid-50 mobile-grid-100">
+                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
+                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <div class="avatar">
+                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://fangsii.github.io/images/avatar.png);"></span></a>
+                  </div>
+                  <div class="info">
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">FANG.Si</a></h4>
+                    <p class="founder">三分热度，一时热情</p>
+                    <div class="social">
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                      
+                    </div> 
+                  </div>
+                  <div class="clear"></div>
+                  </section>
+              </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="logo">
+          <a href="https://fangsii.github.io"><img src="/media/images/gridea.png" alt=""></a>
+        </div>
+        <p class="published border-effect">
+          ©2019 共 3 篇文章
+          <br/>
+          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+        </p>
+        
+        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
+          <i class="fa fa-arrow"></i>
         </a>
-        <br>
+    </footer>
     
-    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
-</div>
+    <div class="clear"></div>
 
-<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
-    <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E7%AE%80%E4%BB%8B">简介</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
+        
 
-</div>
+      
+    <script src="https://fangsii.github.io/media/js/functions-post.js"></script>
 
-
-    
-<footer id="fh5co-footer">
-  <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
-</footer>
-
-
-    <!-- jQuery -->
-<script src="https://fangsii.github.io/media/scripts/jquery.min.js"></script>
-<!-- img lazy load -->
-<script src="https://fangsii.github.io/media/scripts/jquery.lazyload.min.js"></script>
-<!-- jQuery Easing -->
-<script src="https://fangsii.github.io/media/scripts/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="https://fangsii.github.io/media/scripts/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="https://fangsii.github.io/media/scripts/jquery.waypoints.min.js"></script>
-<!-- Main JS -->
-<script src="https://fangsii.github.io/media/scripts/main.js"></script>
-<!-- Md5 Min JS -->
-<script src="https://fangsii.github.io/media/scripts/md5.min.js"></script>
-<!-- katex -->
-<!--<script src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>-->
-<!-- highlight -->
-<script src="https://cdn.bootcss.com/highlight.js/9.15.8/highlight.min.js"></script>
-
-
-<script type="application/javascript">
-    // 代码高亮
-    hljs.initHighlightingOnLoad();
-
-    // img 懒加载
-    $(function () {
-        $("img.lazy").lazyload({
-            effect: "fadeIn",  // 懒加载动画
-            threshold: 180  // 在图片距离屏幕180px时提前载入
-        });
-        // tooltip
-        $('[data-toggle="tooltip"]').tooltip();
-
-        // 目录
-        $('#tool-toc').click(function () {
-            $('.post-toc').toggle();
-        });
-    });
-
-    
-        var allImg = $("img");
-        allImg.on("contextmenu", function () {
-            return false;
-        });
-        allImg.on("dragstart", function () {
-            return false;
-        });
-    
-</script>
-
-
-
-
-</body>
+    </div>
+    <!-- end: #wrapper -->
+  </body>
 </html>
