@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangsii.github.io</id>
     <title>FANG.Si</title>
-    <updated>2020-08-05T06:13:04.971Z</updated>
+    <updated>2020-08-09T08:43:04.547Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangsii.github.io"/>
     <link rel="self" href="https://fangsii.github.io/atom.xml"/>
-    <subtitle>一时热情</subtitle>
+    <subtitle>三分热度，一时热情</subtitle>
     <logo>https://fangsii.github.io/images/avatar.png</logo>
     <icon>https://fangsii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FANG.Si</rights>
@@ -17,10 +17,12 @@
         </link>
         <updated>2019-10-28T03:42:28.000Z</updated>
         <summary type="html"><![CDATA[<ul>
+<li>仰望天空 | 贴近泥土 | 远离人群</li>
 <li>年华易逝，抓紧放肆。</li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<ul>
+<li>仰望天空 | 贴近泥土 | 远离人群</li>
 <li>年华易逝，抓紧放肆。</li>
 </ul>
 <!-- more -->
