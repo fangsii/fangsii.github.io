@@ -101,18 +101,10 @@
                     </li>
                 
                     <li>
-                        <a href="https://fangsii.github.io/post/bookmark"
-                        
-                        >
-                            图廊
-                        </a>
-                    </li>
-                
-                    <li>
                         <a href="https://fangsii.github.io/tag/booknotes/"
                         
                         >
-                            笔记
+                            书单
                         </a>
                     </li>
                 
@@ -125,7 +117,7 @@
                     </li>
                 
                     <li>
-                        <a href="/post/about"
+                        <a href="https://fangsii.github.io/post/about"
                         
                         >
                             关于
@@ -212,6 +204,14 @@
         });
     });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
     
 </script>
 

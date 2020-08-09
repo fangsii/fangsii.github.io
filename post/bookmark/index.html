@@ -101,18 +101,10 @@
                     </li>
                 
                     <li>
-                        <a href="https://fangsii.github.io/post/bookmark"
-                        
-                        >
-                            图廊
-                        </a>
-                    </li>
-                
-                    <li>
                         <a href="https://fangsii.github.io/tag/booknotes/"
                         
                         >
-                            笔记
+                            书单
                         </a>
                     </li>
                 
@@ -125,7 +117,7 @@
                     </li>
                 
                     <li>
-                        <a href="/post/about"
+                        <a href="https://fangsii.github.io/post/about"
                         
                         >
                             关于
@@ -169,6 +161,22 @@
             </article>
         </div>
 
+        
+
+            <!-- 平面卡片布局 -->
+            
+                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xxs-12 animate-box">
+                    <figure class="img-box" data-toggle="tooltip" data-placement="top" title="">
+                        <img data-original="https://fangsii.github.io/post-images/1596965000524.jpg" alt="" class="img-responsive lazy">
+                    </figure>
+                </article>
+            
+                <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xxs-12 animate-box">
+                    <figure class="img-box" data-toggle="tooltip" data-placement="top" title="book1">
+                        <img data-original="https://fangsii.github.io/post/about" alt="book1" class="img-responsive lazy">
+                    </figure>
+                </article>
+            
         
 
         <!-- 分隔线 -->
@@ -258,6 +266,14 @@
         });
     });
 
+    
+        var allImg = $("img");
+        allImg.on("contextmenu", function () {
+            return false;
+        });
+        allImg.on("dragstart", function () {
+            return false;
+        });
     
 </script>
 
