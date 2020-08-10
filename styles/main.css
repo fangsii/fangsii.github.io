@@ -3674,8 +3674,8 @@ div.text blockquote {
 div.text blockquote {
   padding: 20px 50px;
   margin: 0 0 25px 0;
+  background: #dddddd;
   border-left: 0;
-  font-style: italic;
   position: relative;
   z-index: 1;
 }
@@ -5614,7 +5614,7 @@ div.epcl-share a.vk {
   bottom: 0;
   z-index: 3;
   color: #fff;
-  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 #single.fullcover .featured-image div.info .title,
 #single.fullcover .featured-image .top .title,
