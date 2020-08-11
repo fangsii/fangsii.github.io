@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangsii.github.io</id>
     <title>FANG.Si</title>
-    <updated>2020-08-11T09:33:54.339Z</updated>
+    <updated>2020-08-11T13:58:00.561Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangsii.github.io"/>
     <link rel="self" href="https://fangsii.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://fangsii.github.io/images/avatar.png</logo>
     <icon>https://fangsii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FANG.Si</rights>
+    <entry>
+        <title type="html"><![CDATA[妙先生]]></title>
+        <id>https://fangsii.github.io/post/miao-xian-sheng/</id>
+        <link href="https://fangsii.github.io/post/miao-xian-sheng/">
+        </link>
+        <updated>2020-08-11T11:40:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>导演: 李凌霄<br>
+编剧: 三弦<br>
+类型: 动画 / 奇幻 / 冒险<br>
+制片国家/地区: 中国大陆<br>
+上映日期: 2020-07-31(中国大陆)<br>
+片长: 89分钟<br>
+IMDb链接: tt11482244</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>导演: 李凌霄<br>
+编剧: 三弦<br>
+类型: 动画 / 奇幻 / 冒险<br>
+制片国家/地区: 中国大陆<br>
+上映日期: 2020-07-31(中国大陆)<br>
+片长: 89分钟<br>
+IMDb链接: tt11482244</p>
+<!-- more -->
+<p><a href="https://movie.douban.com/subject/34888476/">https://movie.douban.com/subject/34888476/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[获救之舌]]></title>
         <id>https://fangsii.github.io/post/huo-jiu-zhi-she-cong-shu-ai-li-ya-si-qia-nei-di-zi-chuan-san-bu-qu/</id>
@@ -75,6 +100,15 @@ ISBN: 9787508678047</p>
 他们在照顾人。</p>
 </blockquote>
 <p>我很喜欢祖孙三代这一段，让我想起小时候在书店挑书，妈妈在外面等待的时光</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[观云]]></title>
+        <id>https://fangsii.github.io/post/guan-yun/</id>
+        <link href="https://fangsii.github.io/post/guan-yun/">
+        </link>
+        <updated>2019-08-11T11:39:39.000Z</updated>
+        <content type="html"><![CDATA[<p>观云</p>
 ]]></content>
     </entry>
 </feed>
