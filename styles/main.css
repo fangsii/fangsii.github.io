@@ -1761,7 +1761,7 @@ h6 {
 .wpcf7 label,
 #single #comments.hosted .comment .comment-author {
   font-size: 16px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   line-height: 1.45;
 }
 .title.white,
@@ -3346,6 +3346,11 @@ i.fa,
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: contain !important;
+}
+.coverpost {
+  background-repeat: no-repeat !important;
+  background-position: right center !important;
+  background-size: cover !important;
 }
 .parallax {
   background-attachment: fixed !important;
@@ -5605,12 +5610,12 @@ div.epcl-share a.vk {
   font-size: 14px !important;
 }
 #single.fullcover .featured-image {
-  height: 400px;
+  height: 200px;
   position: relative;
   z-index: 1;
   border-radius: 15px;
   overflow: hidden;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 #single.fullcover .featured-image:before {
   content: '';
@@ -5642,7 +5647,7 @@ div.epcl-share a.vk {
 }
 #single.fullcover .featured-image div.info,
 #single.fullcover .featured-image .top {
-  padding: 40px 40px;
+  padding: 20px 40px;
   position: absolute;
   left: 0;
   bottom: 0;
