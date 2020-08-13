@@ -2743,7 +2743,7 @@ form.search-form .submit:hover {
 .widget_tag_cloud a .tag-link-count {
   margin-left: 2px;
 }
-#friends .widget_tag_cloud a {
+#pictures .widget_tag_cloud a {
   height: 42px;
   position: relative;
   line-height: 42px;
@@ -2751,7 +2751,7 @@ form.search-form .submit:hover {
   font-size: 18px !important;
   padding: 4px 30px 4px 60px;
 }
-#friends .widget_tag_cloud a img {
+#pictures .widget_tag_cloud a img {
   border-radius: 50%;
   position: absolute;
   transition: all 300ms ease;
