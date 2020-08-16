@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangsii.github.io</id>
     <title>FANG.Si</title>
-    <updated>2020-08-15T11:50:08.642Z</updated>
+    <updated>2020-08-16T05:02:03.779Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangsii.github.io"/>
     <link rel="self" href="https://fangsii.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://fangsii.github.io/images/avatar.png</logo>
     <icon>https://fangsii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FANG.Si</rights>
+    <entry>
+        <title type="html"><![CDATA[杏仁]]></title>
+        <id>https://fangsii.github.io/post/xing-ren/</id>
+        <link href="https://fangsii.github.io/post/xing-ren/">
+        </link>
+        <updated>2020-08-16T04:59:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>作者: [韩]孙元平<br>
+出版社: 民主与建设出版社<br>
+译者: 谢雅玉<br>
+出版年: 2019-10-1<br>
+页数: 208<br>
+ISBN: 9787513926041</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>作者: [韩]孙元平<br>
+出版社: 民主与建设出版社<br>
+译者: 谢雅玉<br>
+出版年: 2019-10-1<br>
+页数: 208<br>
+ISBN: 9787513926041</p>
+<!-- more -->
+<p><a href="https://book.douban.com/subject/34834138/">https://book.douban.com/subject/34834138/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我们仨]]></title>
         <id>https://fangsii.github.io/post/wo-men-sa/</id>
