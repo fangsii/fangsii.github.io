@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fangsii.github.io</id>
     <title>FANG.Si</title>
-    <updated>2020-08-18T02:03:24.251Z</updated>
+    <updated>2020-09-01T06:04:28.111Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fangsii.github.io"/>
     <link rel="self" href="https://fangsii.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://fangsii.github.io/images/avatar.png</logo>
     <icon>https://fangsii.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, FANG.Si</rights>
+    <entry>
+        <title type="html"><![CDATA[时光边缘的男人]]></title>
+        <id>https://fangsii.github.io/post/shi-guang-bian-yuan-de-nan-ren/</id>
+        <link href="https://fangsii.github.io/post/shi-guang-bian-yuan-de-nan-ren/">
+        </link>
+        <updated>2020-09-01T06:01:45.000Z</updated>
+        <summary type="html"><![CDATA[<p>作者: [英] 马特·海格<br>
+出版社: 北京联合出版公司<br>
+出品方: 大鱼读品<br>
+原作名: How to Stop Time<br>
+译者: 侯茜<br>
+出版年: 2018-8<br>
+页数: 304<br>
+丛书: 马特·海格作品<br>
+ISBN: 9787559620934</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>作者: [英] 马特·海格<br>
+出版社: 北京联合出版公司<br>
+出品方: 大鱼读品<br>
+原作名: How to Stop Time<br>
+译者: 侯茜<br>
+出版年: 2018-8<br>
+页数: 304<br>
+丛书: 马特·海格作品<br>
+ISBN: 9787559620934</p>
+<!-- more -->
+<p><a href="https://book.douban.com/subject/30223818/">https://book.douban.com/subject/30223818/</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[回归故里]]></title>
         <id>https://fangsii.github.io/post/hui-gui-gu-li/</id>
